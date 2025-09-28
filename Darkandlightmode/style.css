@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-color: var(--primary-color);
+}
+/* Navbar container */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: var(--primary-color);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo i {
+  font-size: 24px;
+  color: #4a90e2;
+}
+
+.logo h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+/* Nav links */
+.nav-links ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--secondary-color);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #4a90e2;
+}
+
+/* Sign in & button */
+.navBar > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navBar p {
+  font-size: 16px;
+  color: var(--secondary-color);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navBar p:hover {
+  color: #4a90e2;
+}
+
+.navBar button {
+  padding: 8px 16px;
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.navBar button:hover {
+  background: #357abd;
+}
+
+/* home section */
+
+.home {
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.home-writeup {
+  width:35%;
+  justify-content:space-between ;
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+}
+
+.home-writeup h1 {
+  line-height: 1.25;
+  font-size: 3rem;
+}
+
+.home-writeup p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: var(--secondary-color);
+}
+
+.home-src {
+  border-radius: 10px;
+  width: 384px; 
+  height: 433px;  
+}
+
+.bttn1 {
+background-color: var(--secondary-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color:var(--primary-color);
+  font-size: 15px;
+  padding: 14px;
+  border: 1px solid var(--primary-color);
+}
+
+.bttn2 {
+  border: 1px solid var(--secondary-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color:var(--secondary-color);
+  font-size: 15px;
+  padding: 14px;
+}
+
+.small-writeup {
+ display: flex;
+}
+
+.small-writeup p{
+ font-size: 1rem;
+ margin-left: 12px;
+}
+
+#icon {
+  width: 30px ;
+  cursor: pointer;
+}
+
+nav ul {
+  flex: 1;
+  text-align: right;
+}
+
+:root {
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+
+   /* --primary-color: #000106;
+  --secondary-color:#fff; */
+}
+
+.dark-theme {
+  --primary-color: #000106;
+  --secondary-color:#fff;
+}
+  
