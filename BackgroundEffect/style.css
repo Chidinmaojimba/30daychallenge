@@ -23,7 +23,7 @@ position: relative;
 }
 
 .img-wrap {
-    width: 20px;
+    /* width: 20px; */
     position: absolute;
     left: 0;
     top: 0;
